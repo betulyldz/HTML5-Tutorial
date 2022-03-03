@@ -1,0 +1,48 @@
+<!--HTML5 de iki türlü liste vardır. 1.)Unordered Lists=> sırasız listeler,
+ 2.)Ordered=> sıralı listelerdir.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Lists</title>
+</head>
+
+<body>
+    <!-- HTML5 Unordered Lists:<ul> etiketi ile açılır. 
+        Kodu çalıştırdığınızda listelerin başında nokta varsa Unordered(Sırasız)Listelerdir. -->
+    <ul>
+        <li>Daire</li>
+        <!--Liste elemanlarını <li> etiketi ile gösterilir.-->
+        <ul>
+            <!--Listenin altında tekrar bir liste oluşturduk.-->
+            <li>3+1</li>
+            <li>2+1</li>
+            <li>4+1</li>
+        </ul>
+        <li>Müstakil</li>
+    </ul>
+    <br>
+    <br>
+    <!-- HTML5 Order Lists: <ol> etiketi ile açılır. 1,2,3,4 veya a,b,c,d gibi giden listelerdir.-->
+    <ol type="I">
+        <li>Anne</li>
+        <li>Baba</li>
+        <li>Amca</li>
+        <li>Dayı</li>
+    </ol>
+    <!-- <ol> etiketinin Attribute'ne hiç bir şey vermezsek random olarak 1,2,3,4 diye sıralanır.
+        type=" " ının içine 'A' verirsek a'dan başlayarak alfabetik sıralar. type'ın içine farklı değerlede verebiliriz.
+        Başka bir Attribute'ü ola start= " " a başlangıç sayısı olarak bir sayı verebiliriz.
+        Verdiğimiz sayıdan başlayarak sırayla sıralar.-->
+    <ol start="45">
+        <li>Anne</li>
+        <li>Baba</li>
+        <li>Amca</li>
+        <li>Dayı</li>
+    </ol>
+</body>
+
+</html>

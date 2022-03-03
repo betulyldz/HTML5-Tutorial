@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Images</title>
+</head>
+
+<body>
+    <!--<img> etiketini kullanarak sitenize resim ekleyebilirsiniz. Bunun için <img> etiketinin src=" " Attributes'ünü kullanarak hangi kaynaktan geldiğini belirmeniz gerekir.
+    Eklediğiniz image'in boyutunu yani yükseklik ve genişliğini aynı oranda küçültmek istiyorsanız, sadece width'ini veya sadece height'ine bir px verirseniz ikisini de aynı oranda küçültür veya büyültür.-->
+    <img src="https://m.media-amazon.com/images/M/MV5BMTMyOTk0NDMwMF5BMl5BanBnXkFtZTcwMzgwMzMzMw@@._V1_.jpg" width="300"
+        alt="Wall-E">
+    <!-- <img> etiketinin alt Attribute' ü resmin bağlantısı hatalıysa o resmin ne olduğunu gösteririr.-->
+
+    <br><img src="https://m.media-amazon.com/images/M/QMV5BMTMyOTk0NDMwMF5BMl5BanBnXkFtZTcwMzgwMzMzMw@@._V1_.jpg"
+        width="300" alt="Wall-E">
+    <!-- bu hatalı bir resim bağlantısıdır. alt Attribute'ünün farkını görmemiz için konulmuştur.-->
+    <!-- <img> etiketinin alt Attribute' ü resmin bağlantısı hatalıysa o resmin ne olduğunu gösteririr.-->
+
+
+    <!--yukarıda ki iki örnek de image'in kaynağını dışarıdan aldığımız öreklerdi. Şİmdi kendi projemizin içinde olan image'i-->
+    <br>
+
+    <img src="./images/wall-e.jpg" width="300" alt="Wall-E">
+    <!--Bu örnekte image'in kaynağını kendi projemizden aldık. Yine aynı şekilde hatalı bir image kaynağı gösterseydik alt Attribute'ümüz çalışacaktı.-->
+    <br>
+
+    <a href="https://www.imdb.com/title/tt0910970/" target="_blank" title="Wall-E Film">
+        <img src="https://m.media-amazon.com/images/M/MV5BMTMyOTk0NDMwMF5BMl5BanBnXkFtZTcwMzgwMzMzMw@@._V1_.jpg"
+            width="300" alt="Wall-E">
+        <!--BU örnekte de image'imizi <a> etiketine sarop onu bir link gibi gösterdik..
+    </a>
+</body>
+
+</html>
